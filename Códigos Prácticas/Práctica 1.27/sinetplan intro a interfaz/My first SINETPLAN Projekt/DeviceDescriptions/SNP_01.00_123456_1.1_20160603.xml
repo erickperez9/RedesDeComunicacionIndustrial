@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<DeviceDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SinetplanVersion="" Name="Standard Switch" ConfigurationName="" SoftwareVersion="1.1" OrderNumber="123456" Category="Other Devices" MainFamily="Switch" ProductFamily="Test-Switch" VendorId="0x0000" DeviceId="0x0000" Role="SWITCH" Vendor="My Vendor" HardwareVersion="1.0" ForwardingMode="StoreAndForward" DescriptionTextId="1" DeviceType="Switch" Image="Switch.PNG" IsHsync="false" xmlns="http://siemens.com/DeviceDescriptionSchema">
+  <InterfaceList>
+    <Interface Id="0" QueueMemory="8192" QueueMemoryStrategy="Static">
+      <PortList>
+        <Port Id="0" PortType="FO" IsBusAdapter="false" Scheduler="FIFO" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7,8" SchedulerPriority="0" />
+          </QueueList>
+        </Port>
+        <Port Id="1" PortType="FO" IsBusAdapter="false" Scheduler="FIFO" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7,8" SchedulerPriority="0" />
+          </QueueList>
+        </Port>
+        <Port Id="2" PortType="Copper" IsBusAdapter="false" Scheduler="FIFO" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7,8" SchedulerPriority="0" />
+          </QueueList>
+        </Port>
+        <Port Id="3" PortType="Copper" IsBusAdapter="false" Scheduler="FIFO" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7,8" SchedulerPriority="0" />
+          </QueueList>
+        </Port>
+      </PortList>
+    </Interface>
+  </InterfaceList>
+  <AsicGroupList />
+  <LanguageList>
+    <Language Culture="en">
+      <TextList>
+        <Text TextId="1">Standard Switch for test</Text>
+      </TextList>
+    </Language>
+    <Language Culture="de">
+      <TextList>
+        <Text TextId="1">Standard Switch für Tests</Text>
+      </TextList>
+    </Language>
+  </LanguageList>
+</DeviceDescription>
