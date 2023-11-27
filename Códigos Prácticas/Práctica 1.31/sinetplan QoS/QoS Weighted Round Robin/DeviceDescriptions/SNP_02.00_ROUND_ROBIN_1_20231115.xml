@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<DeviceDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SinetplanVersion="02.00" Name="ROUND ROBIN" ConfigurationName="" SoftwareVersion="1" OrderNumber="ROUND_ROBIN" Category="Other Devices" MainFamily="IE switches" ProductFamily="Compact Switch Modules" VendorId="0x002A" DeviceId="0x0000" Role="SWITCH" Vendor="SIEMENS" HardwareVersion="1" ForwardingMode="StoreAndForward" DescriptionTextId="1" DeviceType="SWITCH" IsHsync="false" xmlns="http://siemens.com/DeviceDescriptionSchema">
+  <InterfaceList>
+    <Interface Id="0" QueueMemory="12192" QueueMemoryStrategy="Dynamic">
+      <PortList>
+        <Port Id="0" PortType="Copper" IsBusAdapter="false" Scheduler="WeightedRoundRobin" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7" SchedulerPriority="7" />
+            <Queue Id="1" Priorities="8,9,10" SchedulerPriority="7" />
+          </QueueList>
+        </Port>
+        <Port Id="1" PortType="Copper" IsBusAdapter="false" Scheduler="WeightedRoundRobin" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7" SchedulerPriority="3" />
+            <Queue Id="1" Priorities="8,9,10" SchedulerPriority="3" />
+          </QueueList>
+        </Port>
+        <Port Id="2" PortType="Copper" IsBusAdapter="false" Scheduler="WeightedRoundRobin" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7" SchedulerPriority="3" />
+            <Queue Id="1" Priorities="8,9,10" SchedulerPriority="3" />
+          </QueueList>
+        </Port>
+        <Port Id="3" PortType="Copper" IsBusAdapter="false" Scheduler="WeightedRoundRobin" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3,4,5,6,7" SchedulerPriority="7" />
+            <Queue Id="1" Priorities="8,9,10" SchedulerPriority="7" />
+          </QueueList>
+        </Port>
+      </PortList>
+    </Interface>
+  </InterfaceList>
+  <AsicGroupList />
+  <LanguageList>
+    <Language Culture="en">
+      <TextList>
+        <Text TextId="1" />
+      </TextList>
+    </Language>
+    <Language Culture="de">
+      <TextList>
+        <Text TextId="1" />
+      </TextList>
+    </Language>
+    <Language Culture="zh-CHS">
+      <TextList>
+        <Text TextId="1" />
+      </TextList>
+    </Language>
+  </LanguageList>
+</DeviceDescription>
