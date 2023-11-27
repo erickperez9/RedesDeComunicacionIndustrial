@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<DeviceDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SinetplanVersion="01.00" Name="MP 377" ConfigurationName="" SoftwareVersion="0.1 TEST" OrderNumber="000000001" Category="Other Devices" MainFamily="Operator device" ProductFamily="HMI " VendorId="0x0000" DeviceId="0x0000" Role="HMI" Vendor="My Vendor" HardwareVersion="0.1 TEST" ForwardingMode="StoreAndForward" DescriptionTextId="1" DeviceType="HMI" Image="mp377_pro.png" IsHsync="false" xmlns="http://siemens.com/DeviceDescriptionSchema">
+  <InterfaceList>
+    <Interface Id="0" QueueMemory="8192" QueueMemoryStrategy="Dynamic">
+      <PortList>
+        <Port Id="0" PortType="Copper" IsBusAdapter="false" Scheduler="StrictPriority" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3" SchedulerPriority="0" />
+            <Queue Id="1" Priorities="4,5,6,7" SchedulerPriority="1" />
+            <Queue Id="2" Priorities="8,9" SchedulerPriority="2" />
+            <Queue Id="3" Priorities="10" SchedulerPriority="3" />
+          </QueueList>
+        </Port>
+        <Port Id="1" PortType="Copper" IsBusAdapter="false" Scheduler="StrictPriority" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3" SchedulerPriority="0" />
+            <Queue Id="1" Priorities="4,5,6,7" SchedulerPriority="1" />
+            <Queue Id="2" Priorities="8,9" SchedulerPriority="2" />
+            <Queue Id="3" Priorities="10" SchedulerPriority="3" />
+          </QueueList>
+        </Port>
+      </PortList>
+    </Interface>
+  </InterfaceList>
+  <AsicGroupList />
+  <LanguageList>
+    <Language Culture="en">
+      <TextList>
+        <Text TextId="1">MP 377 generic</Text>
+      </TextList>
+    </Language>
+    <Language Culture="de">
+      <TextList>
+        <Text TextId="1">MP 377 generic</Text>
+      </TextList>
+    </Language>
+  </LanguageList>
+</DeviceDescription>

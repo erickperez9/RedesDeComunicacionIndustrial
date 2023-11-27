@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DeviceDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SinetplanVersion="01.00" Name="VNC Server" ConfigurationName="" SoftwareVersion="0.01" OrderNumber="9999999999" Category="PC Systems" MainFamily="Industrial PC" ProductFamily="PC" VendorId="0x002A" DeviceId="0x0000" Role="IPC" Vendor="SIEMENS" HardwareVersion="0.01" ForwardingMode="StoreAndForward" DescriptionTextId="1" DeviceType="IPC" Image="744px-Siemens-logo_svg.png" IsHsync="false" xmlns="http://siemens.com/DeviceDescriptionSchema">
+  <InterfaceList>
+    <Interface Id="0" QueueMemory="8192" QueueMemoryStrategy="Dynamic">
+      <PortList>
+        <Port Id="0" PortType="Copper" IsBusAdapter="false" Scheduler="StrictPriority" SupportedRates="10,100" UserSpecifiedRate="0" Latency="10">
+          <QueueList>
+            <Queue Id="0" Priorities="0,1,2,3" SchedulerPriority="0" />
+            <Queue Id="1" Priorities="4,5,6,7" SchedulerPriority="1" />
+            <Queue Id="2" Priorities="8,9" SchedulerPriority="2" />
+            <Queue Id="3" Priorities="10" SchedulerPriority="3" />
+          </QueueList>
+        </Port>
+      </PortList>
+    </Interface>
+  </InterfaceList>
+  <AsicGroupList />
+  <LanguageList>
+    <Language Culture="en">
+      <TextList>
+        <Text TextId="1">VNC Server for HMI </Text>
+      </TextList>
+    </Language>
+    <Language Culture="de">
+      <TextList>
+        <Text TextId="1">VNC Server fürHMI </Text>
+      </TextList>
+    </Language>
+  </LanguageList>
+</DeviceDescription>
