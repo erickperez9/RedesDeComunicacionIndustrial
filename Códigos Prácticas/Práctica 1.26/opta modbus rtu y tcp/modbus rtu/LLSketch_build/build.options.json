@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:mbed_opta:opta",
+  "hardwareFolders": "C:\\Users\\PCX\\AppData\\Local\\T\\A\\packages",
+  "otherLibrariesFolders": "C:\\Users\\PCX\\AppData\\Local\\T\\U\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "C:\\Users\\PCX\\Desktop\\EPN\\EPN PROYECXTO\\practicas\\Práctica 1.26\\opta modbus rtu y tcp\\modbus rtu\\LLSketch"
+}

@@ -1,0 +1,46 @@
+# 1 "C:\\Users\\PCX\\Desktop\\EPN\\EPN PROYECXTO\\practicas\\Práctica 1.26\\opta modbus rtu y tcp\\modbus rtu\\LLSketch\\LLSketch.ino"
+# 2 "C:\\Users\\PCX\\Desktop\\EPN\\EPN PROYECXTO\\practicas\\Práctica 1.26\\opta modbus rtu y tcp\\modbus rtu\\LLSketch\\LLSketch.ino" 2
+
+/* opta_1.0.3
+*/
+
+struct PLCSharedVarsInput_t
+{
+};
+PLCSharedVarsInput_t& PLCIn = (PLCSharedVarsInput_t&)m_PLCSharedVarsInputBuf;
+
+struct PLCSharedVarsOutput_t
+{
+};
+PLCSharedVarsOutput_t& PLCOut = (PLCSharedVarsOutput_t&)m_PLCSharedVarsOutputBuf;
+
+
+AlPlc AxelPLC(679546233);
+
+// shared variables can be accessed with PLCIn.varname and PLCOut.varname
+
+
+// Enable usage of EtherClass, to set static IP address and other
+# 24 "C:\\Users\\PCX\\Desktop\\EPN\\EPN PROYECXTO\\practicas\\Práctica 1.26\\opta modbus rtu y tcp\\modbus rtu\\LLSketch\\LLSketch.ino" 2
+arduino::EthernetClass eth(&m_netInterface);
+
+
+void setup()
+{
+
+ // Configure static IP address
+ IPAddress ip(192, 168, 1, 100);
+ IPAddress dns(8, 8, 8, 8);
+ IPAddress gateway(192, 168, 1, 1);
+ IPAddress subnet(255, 255, 255, 0);
+ // If cable is not connected this will block the start of PLC with about 60s of timeout!
+ eth.begin(ip, dns, gateway, subnet);
+
+
+ AxelPLC.Run();
+}
+
+void loop()
+{
+
+}
