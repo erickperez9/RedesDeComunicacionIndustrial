@@ -1,5 +1,5 @@
 # RedesDeComunicacionIndustrial
-Este repositorio contiene una introducción teórica a las redes de comunicación industriales, describiendo las caracteírticas de varios protocolos de comunicación utilizados en la industria. Esta toría se encuentra en el documento: La descripción se encuentra en el documento: Manual_redes_de_comunicación_industrial__Introducción_Teórica_.pdf
+Este repositorio contiene una introducción teórica a las redes de comunicación industriales, describiendo las caracteírticas de varios protocolos de comunicación utilizados en la industria. Esta teoría se encuentra en el documento: Manual_redes_de_comunicación_industrial__Introducción_Teórica_.pdf
 
 También, contiene una presentación de la introducción teórica. Esta presentación se ecuentra en el documento: Presentación_redes_de_comunicación_industrial.
 
